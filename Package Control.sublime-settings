@@ -1,0 +1,31 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Boxy Theme",
+		"BracketHighlighter",
+		"Dockerfile Syntax Highlighting",
+		"GitGutter",
+		"GitSavvy",
+		"Logstash Syntax Highlighting",
+		"MarkdownEditing",
+		"Package Control",
+		"PowerShell",
+		"Puppet",
+		"RSpec",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-contrib-puppet",
+		"SublimeLinter-contrib-puppet-lint",
+		"SublimeLinter-json",
+		"SublimeLinter-ruby",
+		"SummitLinter",
+		"Terraform",
+		"Theme - Brogrammer",
+		"yardgen",
+		"zz File Icons"
+	]
+}
