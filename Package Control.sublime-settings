@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"Boxy Theme",
 		"BracketHighlighter",
 		"Dockerfile Syntax Highlighting",
@@ -25,7 +26,6 @@
 		"SummitLinter",
 		"Terraform",
 		"Theme - Brogrammer",
-		"yardgen",
-		"zz File Icons"
+		"yardgen"
 	]
 }
