@@ -1,7 +1,7 @@
 {
 	"bold_folder_labes": true,
 	"caret_extra_width": 2,
-	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Solarized Light.tmTheme",
+	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Solarized Dark.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "inconsolata",
 	"font_size": 14,
@@ -17,7 +17,7 @@
 	"match_brackets": false,
 	"save_on_focus_lost": true,
 	"tab_size": 2,
-	"theme": "Boxy Solarized Light.sublime-theme",
+	"theme": "Boxy Solarized Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
