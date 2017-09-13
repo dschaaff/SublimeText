@@ -1,7 +1,7 @@
 {
 	"bold_folder_labes": true,
 	"caret_extra_width": 2,
-	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Yesterday.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "SF Mono",
 	"font_size": 12,
@@ -17,7 +17,6 @@
 	"match_brackets": false,
 	"save_on_focus_lost": true,
 	"tab_size": 2,
-	"theme": "Boxy Yesterday.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }

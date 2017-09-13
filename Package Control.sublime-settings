@@ -11,8 +11,10 @@
 		"Chef",
 		"Colorsublime",
 		"Dockerfile Syntax Highlighting",
+		"Fluentd",
 		"GitGutter",
 		"GitSavvy",
+		"Indent XML",
 		"JSONLint",
 		"Logstash Syntax Highlighting",
 		"MarkdownEditing",
@@ -24,6 +26,8 @@
 		"Puppet",
 		"RSpec",
 		"SideBarEnhancements",
+		"sublime-terraform",
+		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-contrib-foodcritic",
 		"SublimeLinter-contrib-puppet",
@@ -35,9 +39,13 @@
 		"SummitLinter",
 		"Terminal",
 		"TerminalView",
-		"Terraform",
 		"Theme - Brogrammer",
+		"Theme - One Dark",
 		"Theme - Spacegray",
 		"yardgen"
+	],
+	"repositories":
+	[
+		"https://github.com/tmichel/sublime-terraform"
 	]
 }
