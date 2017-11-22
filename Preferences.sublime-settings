@@ -1,7 +1,7 @@
 {
 	"bold_folder_labes": true,
 	"caret_extra_width": 2,
-	"color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Oceanic Next (SL).tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Input Mono",
 	"font_size": 12,
@@ -15,7 +15,9 @@
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"match_brackets": false,
+	"mdpopups.use_sublime_highlighter": true,
 	"save_on_focus_lost": true,
+	"skin": "DA UI/Origin",
 	"tab_size": 2,
 	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true,
