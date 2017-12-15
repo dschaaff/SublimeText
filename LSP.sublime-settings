@@ -5,6 +5,7 @@
 		{
 			"enabled": true,
 			"log_debug": true,
+			"log_stderr": true,
 			"log_server": true,
 			"show_view_status": true
 		}
@@ -15,9 +16,10 @@
 		[
 			"java",
 			"-jar",
-			"/usr/local/Cellar/jdt-language-server/0.7.0-201710201916/libexec/plugins/org.eclipse.equinox.launcher_1.4.0.v20161219-1356.jar",
+			"/usr/local/Cellar/jdt-language-server/0.9.0-201711250053/plugins/org.eclipse.equinox.launcher_1.4.0.v20161219-1356.jar",
 			"-configuration",
-			"/usr/local/Cellar/jdt-language-server/0.7.0-201710201916/libexec/config_mac"
+			"/usr/local/Cellar/jdt-language-server/0.9.0-201711250053/libexec/config_mac",
+			"--debug"
 		],
 		"languageId": "java",
 		"scopes":
