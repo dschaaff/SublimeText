@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"path": "~/development/puppet/control"
+		},
+		{
+			"path": "~/development/puppet/puppet-datadog-agent"
+		},
+		{
+			"path": "~/development/puppet/verve"
+		},
+		{
+			"path": "~/development/puppet/puppet-nsq"
+		}
+	]
+}

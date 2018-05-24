@@ -1,0 +1,589 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"aws_ebs",
+				"aws_ebs_volume"
+			],
+			[
+				"aws_secur",
+				"aws_security_group_rule"
+			],
+			[
+				"ter",
+				"terraform_remote_state"
+			],
+			[
+				"terra",
+				"terraform_remote_state"
+			],
+			[
+				"uti",
+				"utilize_reserved_instances"
+			],
+			[
+				"healt",
+				"health_check"
+			],
+			[
+				"var",
+				"variable\tvariable (inferred type)"
+			],
+			[
+				"varia",
+				"variableS\tvariable (string)"
+			],
+			[
+				"avai",
+				"availability_vs_cost"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"key",
+				"key_name"
+			],
+			[
+				"vari",
+				"variableS\tvariable (string)"
+			],
+			[
+				"vara",
+				"variableL\tvariable (list)"
+			],
+			[
+				"cool",
+				"cooldown_period"
+			],
+			[
+				"clus",
+				"cluster_name"
+			],
+			[
+				"ke",
+				"key_pair"
+			],
+			[
+				"lau",
+				"launch_config"
+			],
+			[
+				"aw",
+				"aws_launch_configuration"
+			],
+			[
+				"ami",
+				"ami_id"
+			],
+			[
+				"am",
+				"ami_id"
+			],
+			[
+				"in",
+				"instance_type"
+			],
+			[
+				"max",
+				"max_size"
+			],
+			[
+				"min",
+				"min_size"
+			],
+			[
+				"auto",
+				"autoscaling_group_name"
+			],
+			[
+				"aws_rout",
+				"aws_route_table"
+			],
+			[
+				"stage",
+				"stage_to_ops"
+			],
+			[
+				"vpc",
+				"vpc_peering_connection_id"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 353.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"proj",
+				"Project Manager: Add New Project"
+			],
+			[
+				"git pus",
+				"git: push"
+			],
+			[
+				"git st",
+				"git: status"
+			],
+			[
+				"set sy",
+				"Set Syntax: JSON"
+			],
+			[
+				"git pu",
+				"git: push"
+			],
+			[
+				"ter",
+				"Terminal: Open"
+			],
+			[
+				"git pul",
+				"git: pull"
+			],
+			[
+				"git push",
+				"git: push"
+			],
+			[
+				"git pull",
+				"git: pull"
+			],
+			[
+				"gitpus",
+				"git: push"
+			],
+			[
+				"gitp us",
+				"git: push"
+			],
+			[
+				"term",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"termina",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"git",
+				"git: status"
+			],
+			[
+				"git stat",
+				"git: status"
+			],
+			[
+				"gitp ush",
+				"git: push"
+			],
+			[
+				"gitp ul",
+				"git: pull"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"them",
+				"UI: Select Theme"
+			],
+			[
+				"color sche",
+				"UI: Select Color Scheme"
+			],
+			[
+				"the",
+				"UI: Select Theme"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"git psh",
+				"git: push"
+			],
+			[
+				"git sta",
+				"git: status"
+			],
+			[
+				"list pac",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"termin",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"da",
+				"DA UI: Theme Settings"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"disale pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"vim",
+				"Preferences: ActualVim Settings"
+			],
+			[
+				"pakc",
+				"Package Control: Remove Package"
+			],
+			[
+				"git branch",
+				"git: checkout new branch"
+			],
+			[
+				"git bra",
+				"git: branch"
+			],
+			[
+				"color sch",
+				"UI: Select Color Scheme"
+			],
+			[
+				"vinta",
+				"Preferences: NeoVintageous Settings"
+			],
+			[
+				"terraf",
+				"Preferences: Terraform Settings"
+			],
+			[
+				"dash",
+				"DashDoc: invoke Dash with selected word"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"li",
+				"Package Control: List Packages"
+			],
+			[
+				"terminalv",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"dai",
+				"DA UI: Color Scheme Settings"
+			],
+			[
+				"set syn js",
+				"Set Syntax: JSON"
+			]
+		],
+		"width": 674.0
+	},
+	"console":
+	{
+		"height": 206.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/danielschaaff/development/martech/audience-server",
+		"/Users/danielschaaff/development/martech/audience-server/.settings"
+	],
+	"file_history":
+	[
+		"/Users/danielschaaff/development/martech/audience-server/Jenkinsfile",
+		"/Users/danielschaaff/development/martech/audience-validation-manager/docker-entrypoint.sh",
+		"/Users/danielschaaff/development/martech/haproxy/spec/haproxy_spec.rb",
+		"/Users/danielschaaff/development/martech/haproxy/Jenkinsfile",
+		"/Users/danielschaaff/development/martech/haproxy/haproxy.cfg-staging",
+		"/Users/danielschaaff/development/martech/haproxy/haproxy.cfg",
+		"/Users/danielschaaff/development/martech/clojure/snitch/docker-entrypoint.sh",
+		"/Users/danielschaaff/development/martech/secure-beacon-utils/.gitignore",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/production-vpc/production-ecs-cluster/sdk-event-server/main.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/staging-vpc/staging-ecs-cluster/sdk-event-server/backend.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/staging-vpc/staging-ecs-cluster/sdk-registration-server/main.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/production-vpc/production-ecs-cluster/sdk-registration-server/dns.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/production-vpc/production-ecs-cluster/sdk-registration-server/backend.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/production-vpc/production-ecs-cluster/sdk-registration-server/main.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/staging-vpc/staging-ecs-cluster/sdk-registration-server/backend.tf",
+		"/Users/danielschaaff/development/martech/sdk-registration-server/src/main/resources/config/application-dev.properties",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/staging-vpc/staging-ecs-cluster/main.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/staging-vpc/staging-ecs-cluster/dashboard-server/backend.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/staging-vpc/staging-ecs-cluster/dashboard-server/main.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/production-vpc/elasticache/main.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/staging-vpc/elasticache/redis.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/production-vpc/nsqd/main.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/staging-vpc/nsqd/main.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/staging-vpc/nsqd/security_group.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/staging-vpc/nsqd/backend.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/staging-vpc/nsqd/README.md",
+		"/Users/danielschaaff/development/terraform/modules/ecs_cluster/asg.tf",
+		"/Users/danielschaaff/development/terraform/modules/ecs_cluster/instance_role.tf",
+		"/Users/danielschaaff/development/terraform/modules/ecs_cluster/vars.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/production-vpc/production-ecs-cluster/haproxy/main.tf",
+		"/Users/danielschaaff/development/terraform/modules/ecs_service/vars.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/production-vpc/verve-ui-bucket/main.tf",
+		"/Users/danielschaaff/development/terraform/modules/ecs_service/service.tf",
+		"/Users/danielschaaff/development/terraform/modules/ecs_service/README.md",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/production-vpc/production-ecs-cluster/haproxy/backend.tf",
+		"/Users/danielschaaff/development/terraform/modules/ecs_cluster/security_groups.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/staging-vpc/staging-ecs-cluster/outputs.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/staging-vpc/verve-ui-bucket/main.tf",
+		"/Users/danielschaaff/development/terraform/modules/ecs_cluster/outputs.tf",
+		"/Users/danielschaaff/development/terraform/modules/verve-ui-bucket/main.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/production-vpc/production-ecs-cluster/main.tf",
+		"/Users/danielschaaff/Library/Application Support/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/ops-vpc/outputs.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/staging-vpc/staging-ecs-cluster/backend.tf",
+		"/Users/danielschaaff/development/terraform/modules/ecs_cluster/alb.tf",
+		"/Users/danielschaaff/development/terraform/modules/ecs_cluster/lambda.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/staging-vpc/peering.tf",
+		"/Users/danielschaaff/Library/Application Support/Sublime Text 3/Packages/User/ActualVim.sublime-settings",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/IAM/spotinst.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/IAM/backend.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/ops-vpc/peering.tf",
+		"/Users/danielschaaff/development/terraform/modules/ec2_instance/main.tf",
+		"/Users/danielschaaff/development/terraform/modules/ec2_spot_instance/user_data.tpl",
+		"/Users/danielschaaff/development/terraform/modules/ec2_spot_instance/instance.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/production-vpc/dnsmasq/main.tf",
+		"/Users/danielschaaff/development/terraform/modules/fluentd_aggregator/vars.tf",
+		"/Users/danielschaaff/development/terraform/verve-terraform/aws/martech/us-east-1/production-vpc/production-ecs-cluster/fluentd/main.tf",
+		"/Users/danielschaaff/development/terraform/modules/fluentd_aggregator/service.tf",
+		"/Users/danielschaaff/development/terraform/modules/fluentd_aggregator/route53.tf",
+		"/Users/danielschaaff/.dotfiles/profile.d/03_functions.sh",
+		"/Users/danielschaaff/.ssh/config",
+		"/Users/danielschaaff/.dotfiles/profile.d/03_",
+		"/Users/danielschaaff/.lein/credentials.clj",
+		"/Users/danielschaaff/development/jenkins/master/plugins.txt",
+		"/Users/danielschaaff/development/jenkins/master/jenkins-task-def.json",
+		"/Users/danielschaaff/development/jenkins/master/Dockerfile",
+		"/Users/danielschaaff/Desktop/foo.txt",
+		"/Users/danielschaaff/Desktop/foop.txt",
+		"/Users/danielschaaff/development/packertest/example.json"
+	],
+	"find":
+	{
+		"height": 56.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 56.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "audience-server.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Je",
+				"Jenkinsfile"
+			],
+			[
+				"entr",
+				"entrypoint.sh"
+			],
+			[
+				"Fas",
+				"fastlane/Fastfile"
+			],
+			[
+				".e",
+				".env"
+			],
+			[
+				"fas",
+				"fastlane/Fastfile"
+			],
+			[
+				"jenk",
+				"Jenkinsfile"
+			],
+			[
+				"dock",
+				"Dockerfile"
+			],
+			[
+				"verve-ui",
+				"verve-terraform/aws/martech/us-east-1/staging-vpc/verve-ui-bucket/main.tf"
+			],
+			[
+				"vars",
+				"ecs_cluster/vars.tf"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "pu",
+		"selected_items":
+		[
+			[
+				"pu",
+				"~/development/sublime-projects/puppet.sublime-project"
+			],
+			[
+				"pup",
+				"~/development/sublime-projects/puppet.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"vintage":
+		{
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

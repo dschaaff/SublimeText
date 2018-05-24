@@ -1,16 +1,24 @@
 {
 	"bold_folder_labes": true,
 	"caret_extra_width": 2,
-	"color_scheme": "Packages/User/SublimeLinter/Mariana (SL).tmTheme",
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).tmTheme",
 	"ensure_newline_at_eof_on_save": true,
-	"font_face": "Input Mono",
+	"font_face": "Hack",
 	"font_size": 12,
+	"gpu_window_buffer": false,
 	"gutter": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"ActualVim",
 		"Colorsublime",
-		"Vintage"
+		"Markdown",
+		"Six",
+		"SublimeLinter-contrib-puppet",
+		"SublimeLinter-contrib-puppet-lint",
+		"Vintage",
+		"Vintageous"
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
@@ -19,7 +27,9 @@
 	"save_on_focus_lost": true,
 	"skin": "DA UI/Origin",
 	"tab_size": 2,
-	"theme": "Default.sublime-theme",
+	"theme": "DA.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"vintageous_reset_mode_when_switching_tabs": false,
+	"word_wrap": true
 }

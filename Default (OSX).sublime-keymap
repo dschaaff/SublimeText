@@ -1,4 +1,8 @@
 [
   { "keys": ["alt+super+up"], "command": "select_lines", "args": {"forward": false} },
   { "keys": ["alt+super+down"], "command": "select_lines", "args": {"forward": true} },
+  {
+  "keys": ["f12"],
+  "command": "lsp_symbol_definition",
+}
 ]

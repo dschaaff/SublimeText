@@ -1,34 +1,73 @@
 {
-	"clients":
-	{
-		"jdtls":
-		{
-			"enabled": true,
-			"log_debug": true,
-			"log_stderr": true,
-			"log_server": true,
-			"show_view_status": true
-		}
-	},
-	"jdtls":
-	{
-		"command":
-		[
-			"java",
-			"-jar",
-			"/usr/local/Cellar/jdt-language-server/0.9.0-201711250053/plugins/org.eclipse.equinox.launcher_1.4.0.v20161219-1356.jar",
-			"-configuration",
-			"/usr/local/Cellar/jdt-language-server/0.9.0-201711250053/libexec/config_mac",
-			"--debug"
-		],
-		"languageId": "java",
-		"scopes":
-		[
-			"source.java"
-		],
-		"syntaxes":
-		[
-			"Packages/Java/Java.sublime-syntax"
-		]
-	}
+  "clients": {
+    "jdtls": {
+      "command": [
+        "java",
+        "-jar",
+        "/usr/local/Cellar/jdt-language-server/0.14.0-201802161436/libexec/plugins/org.eclipse.equinox.launcher_1.5.0.v20180119-0753.jar",
+        "-configuration",
+        "/usr/local/Cellar/jdt-language-server/0.14.0-201802161436/libexec/config_mac"
+      ],
+      "enabled": true,
+      "languageId": "java",
+      "log_debug": true,
+      "log_server": true,
+      "log_stderr": true,
+      "scopes": [
+        "source.java"
+      ],
+      "show_view_status": true,
+      "syntaxes": [
+        "Packages/Java/Java.sublime-syntax"
+      ]
+    },
+    "docker": {
+      "command": [
+        "/usr/local/bin/docker-langserver",
+        "--stdio",
+      ],
+      "enabled": true,
+      "languageId": "Dockerfile",
+      "show_view_status": true,
+      "scopes": ["source.dockerfile"],
+      "syntaxes": [
+        "Packages/Dockerfile Syntax Highlighting/Syntaxes/Dockerfile.sublime-syntax"
+      ]
+    },
+    "puppet": {
+      "command": [
+        "/opt/puppetlabs/puppet/bin/ruby",
+        "/Users/danielschaaff/development/puppet/puppet-editor-services/puppet-languageserver",
+        "-t",
+        "30",
+        "--stdio",
+        // "--debug=STDOUT"
+      ],
+      "enabled": true,
+      "languageId": "puppet",
+      "show_view_status": true,
+      "scopes": ["source.puppet"],
+      "syntaxes": ["Packages/Puppet/Syntaxes/Puppet.sublime-syntax"],
+      "settings": {
+        "puppet": {
+          "puppetAgentDir": "/opt/puppetlabs/puppet"
+        }
+      }
+    },
+    "solargraph": {
+      "command": [
+        "/usr/local/bin/solargraph",
+        "socket"
+      ],
+      "enabled": true,
+      "languageId": "ruby",
+      "show_view_status": true,
+      "scopes": ["source.ruby", "source.ruby.rails"],
+      "syntaxes": ["Packages/Ruby/Ruby.sublime-syntax", "Packages/Rails/Ruby on Rails.sublime-syntax"],
+      "initializationOptions": {"diagnostics": "rubocop"}
+    }
+  },
+  "log_debug": true,
+  "log_server": true,
+  "log_stderr": true,
 }

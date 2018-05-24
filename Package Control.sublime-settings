@@ -1,17 +1,37 @@
 {
 	"bootstrapped": true,
+	"downloader_precedence":
+	{
+		"linux":
+		[
+			"curl",
+			"urllib",
+			"wget"
+		],
+		"osx":
+		[
+			"curl",
+			"urllib"
+		],
+		"windows":
+		[
+			"wininet"
+		]
+	},
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
-		"A File Icon",
+		"ActualVim",
+		"ApplySyntax",
 		"Boxy Theme",
 		"BracketHighlighter",
-		"Chef",
 		"Colorsublime",
 		"DA UI",
+		"DashDoc",
 		"Dockerfile Syntax Highlighting",
+		"FileIcons",
 		"Fluentd",
 		"GitGutter",
 		"GitSavvy",
@@ -21,35 +41,38 @@
 		"LSP",
 		"MarkdownEditing",
 		"MarkdownLivePreview",
-		"Material Theme",
 		"MonokaiFree",
+		"NeoVintageous",
 		"Oceanic Next Color Scheme",
 		"Package Control",
-		"PowerShell",
 		"Pretty JSON",
+		"ProjectManager",
 		"Puppet",
 		"RSpec",
 		"SideBarEnhancements",
 		"Solarized Color Scheme",
+		"sublime-hiera-eyaml",
 		"sublime-terraform",
+		"SublimeCodeIntel",
 		"SublimeLinter",
-		"SublimeLinter-contrib-foodcritic",
 		"SublimeLinter-contrib-puppet",
 		"SublimeLinter-contrib-puppet-lint",
 		"SublimeLinter-json",
 		"SublimeLinter-rubocop",
 		"SublimeLinter-ruby",
 		"SublimeLinter-shellcheck",
-		"SummitLinter",
+		"SublimeREPL",
 		"Terminal",
 		"TerminalView",
 		"Theme - Brogrammer",
 		"Theme - One Dark",
 		"Theme - Spacegray",
+		"ToggleNeoVintageous",
 		"yardgen"
 	],
 	"repositories":
 	[
-		"https://github.com/tmichel/sublime-terraform"
+		"https://github.com/tmichel/sublime-terraform",
+		"https://github.com/duboisph/sublime-hiera-eyaml"
 	]
 }
