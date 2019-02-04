@@ -1,8 +1,9 @@
 [
 	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/haproxy.sublime-project",
 	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/packer.sublime-project",
-	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/puppet.sublime-project",
-	"~/development/sublime-projects/terraform.sublime-project",
 	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/audience-server.sublime-project",
-	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/sdk-nearby-server.sublime-project"
+	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/sdk-nearby-server.sublime-project",
+	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/roam-admin-server.sublime-project",
+	"~/development/sublime-projects/terraform.sublime-project",
+	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/puppet.sublime-project"
 ]

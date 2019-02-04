@@ -23,6 +23,7 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"ActualVim",
 		"ApplySyntax",
 		"Boxy Theme",
@@ -43,7 +44,9 @@
 		"MarkdownLivePreview",
 		"MonokaiFree",
 		"NeoVintageous",
+		"nginx",
 		"Oceanic Next Color Scheme",
+		"Origami",
 		"Package Control",
 		"Pretty JSON",
 		"ProjectManager",
@@ -51,6 +54,7 @@
 		"RSpec",
 		"SideBarEnhancements",
 		"Solarized Color Scheme",
+		"SourceTree",
 		"sublime-hiera-eyaml",
 		"sublime-terraform",
 		"SublimeCodeIntel",
@@ -63,7 +67,7 @@
 		"SublimeLinter-shellcheck",
 		"SublimeREPL",
 		"Terminal",
-		"TerminalView",
+		"Terminus",
 		"Theme - Brogrammer",
 		"Theme - One Dark",
 		"Theme - Spacegray",
@@ -72,7 +76,8 @@
 	],
 	"repositories":
 	[
-		"https://github.com/tmichel/sublime-terraform",
-		"https://github.com/duboisph/sublime-hiera-eyaml"
+		"https://github.com/duboisph/sublime-hiera-eyaml",
+		"https://github.com/dschaaff/sublime-terraform?ref=fix-provider-parser",
+		"https://github.com/tmichel/sublime-terraform"
 	]
 }

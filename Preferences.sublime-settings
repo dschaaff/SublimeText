@@ -2,7 +2,7 @@
 	"bold_folder_labes": true,
 	"caret_extra_width": 2,
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).tmTheme",
+	"color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).sublime-color-scheme",
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Hack",
 	"font_size": 12,
@@ -17,6 +17,7 @@
 		"Six",
 		"SublimeLinter-contrib-puppet",
 		"SublimeLinter-contrib-puppet-lint",
+		"SublimeLinter-rubocop",
 		"Vintage",
 		"Vintageous"
 	],
@@ -27,9 +28,10 @@
 	"save_on_focus_lost": true,
 	"skin": "DA UI/Origin",
 	"tab_size": 2,
-	"theme": "DA.sublime-theme",
+	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintageous_reset_mode_when_switching_tabs": false,
+	"vintageous_use_ctrl_keys": true,
 	"word_wrap": true
 }

@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"fil",
+				"file\tfile"
+			],
+			[
+				"f",
+				"file\t  Resource"
+			],
+			[
+				"staging",
+				"staging_roamdb_migrate_password"
+			],
+			[
+				"conn",
+				"connection_settings_staging"
+			],
+			[
 				"read",
 				"readWrite"
 			],
@@ -18,10 +34,6 @@
 			[
 				"file",
 				"file_line\tfile_line"
-			],
-			[
-				"staging",
-				"staging_dns1"
 			],
 			[
 				"aws_rout",
@@ -44,29 +56,23 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/danielschaaff/development/puppet/control/data/roles/staging-mongodb.yaml",
+			"file": "/Users/danielschaaff/development/puppet/control/site/profile/manifests/haproxy/tableau_proxy.pp",
 			"settings":
 			{
-				"buffer_size": 7989,
+				"buffer_size": 605,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/danielschaaff/development/puppet/control/site/profile/templates/jenkins/cassandra.service.erb",
+			"contents": "\n  BRANCH:  On branch `production` tracking `origin/production`.\n  ROOT:    ~/development/puppet/control\n  HEAD:    6f0cd84 LOC-2516 switch haproxy for tableau to correct dns name\n\n    Your working directory is clean.\n\n  ###################                   ###############\n  ## SELECTED FILE ##                   ## ALL FILES ##\n  ###################                   ###############\n\n  [o] open file                         [a] stage all unstaged files\n  [s] stage file                        [A] stage all unstaged and untracked files\n  [u] unstage file                      [U] unstage all staged files\n  [d] discard changes to file           [D] discard all unstaged changes\n  [h] open file on remote\n  [M] launch external merge tool\n\n  [l] diff file inline                  [f] diff all files\n  [e] diff file                         [F] diff all cached files\n\n  #############                         #############\n  ## ACTIONS ##                         ## STASHES ##\n  #############                         #############\n\n  [c] commit                            [t][a] apply stash\n  [C] commit, including unstaged        [t][p] pop stash\n  [m] amend previous commit             [t][s] show stash\n  [p] push current branch               [t][c] create stash\n                                        [t][u] create stash including untracked files\n  [i] ignore file                       [t][g] create stash of staged changes only\n  [I] ignore pattern                    [t][d] drop stash\n\n  [B] abort merge\n\n  ###########\n  ## OTHER ##\n  ###########\n\n  [r]         refresh status\n  [?]         toggle this help menu\n  [tab]       transition to next dashboard\n  [SHIFT-tab] transition to previous dashboard\n  [.]         move cursor to next file\n  [,]         move cursor to previous file\n\n-\n\n",
 			"settings":
 			{
-				"buffer_size": 454,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/danielschaaff/development/puppet/control/site/profile/manifests/mongodb/mongodb.pp",
-			"settings":
-			{
-				"buffer_size": 742,
-				"line_ending": "Unix"
+				"buffer_size": 1796,
+				"line_ending": "Unix",
+				"name": "STATUS: control",
+				"read_only": true,
+				"scratch": true
 			}
 		}
 	],
@@ -78,7 +84,7 @@
 	"command_palette":
 	{
 		"height": 271.0,
-		"last_filter": "git push",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -90,12 +96,76 @@
 				"git: status"
 			],
 			[
-				"term",
-				"Terminal View: Open Bash Terminal"
-			],
-			[
 				"git pus",
 				"git: push"
+			],
+			[
+				"encr",
+				"Hiera-eyaml: Encrypt Selection"
+			],
+			[
+				"decr",
+				"Hiera-eyaml: Decrypt Selection"
+			],
+			[
+				"git pu",
+				"git: push"
+			],
+			[
+				"gitpus",
+				"git: push"
+			],
+			[
+				"eya",
+				"Hiera-eyaml: Decrypt Selection"
+			],
+			[
+				"hiera",
+				"Hiera-eyaml: Encrypt Selection"
+			],
+			[
+				"hier",
+				"Preferences: Hiera-eyaml Settings - Default"
+			],
+			[
+				"termin",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"rest",
+				"LSP: Restart Servers"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"lsp",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"pack upg",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"gitpu",
+				"git: push"
+			],
+			[
+				"lint",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"term",
+				"Terminal View: Open Bash Terminal"
 			],
 			[
 				"git stat",
@@ -118,10 +188,6 @@
 				"LSP: Restart Servers"
 			],
 			[
-				"lsp",
-				"LSP: Enable Language Server Globally"
-			],
-			[
 				"restart",
 				"LSP: Restart Servers"
 			],
@@ -130,20 +196,12 @@
 				"Package Control: Disable Package"
 			],
 			[
-				"rest",
-				"LSP: Restart Servers"
-			],
-			[
 				"lsp st",
 				"LSP: Show Diagnostics"
 			],
 			[
 				"restart ",
 				"LSP: Restart Servers"
-			],
-			[
-				"lint",
-				"SublimeLinter: Show All Errors"
 			],
 			[
 				"packag",
@@ -240,33 +298,44 @@
 	"expanded_folders":
 	[
 		"/Users/danielschaaff/development/puppet/control",
-		"/Users/danielschaaff/development/puppet/control/data",
-		"/Users/danielschaaff/development/puppet/control/data/roles",
-		"/Users/danielschaaff/development/puppet/control/data/vrv_environment",
 		"/Users/danielschaaff/development/puppet/control/site",
 		"/Users/danielschaaff/development/puppet/control/site/profile",
 		"/Users/danielschaaff/development/puppet/control/site/profile/manifests",
-		"/Users/danielschaaff/development/puppet/control/site/profile/manifests/mongodb",
-		"/Users/danielschaaff/development/puppet/control/site/profile/manifests/nsq",
-		"/Users/danielschaaff/development/puppet/control/site/profile/templates",
-		"/Users/danielschaaff/development/puppet/control/site/profile/templates/jenkins"
+		"/Users/danielschaaff/development/puppet/control/site/profile/manifests/haproxy"
 	],
 	"file_history":
 	[
+		"/Users/danielschaaff/development/puppet/control/Puppetfile",
+		"/Users/danielschaaff/development/puppet/control/Gemfile",
+		"/Users/danielschaaff/development/puppet/control/Jenkinsfile",
+		"/Users/danielschaaff/development/puppet/control/data/roles/jenkins-slave.yaml",
+		"/Users/danielschaaff/development/puppet/control/site/profile/manifests/jenkins/slave.pp",
+		"/Users/danielschaaff/development/puppet/control/site/profile/manifests/jenkins/user.pp",
+		"/Users/danielschaaff/development/puppet/control/site/profile/manifests/verve_docker_registry.pp",
+		"/Users/danielschaaff/development/puppet/control/site/profile/manifests/ecs.pp",
+		"/Users/danielschaaff/development/puppet/control/data/common.yaml",
+		"/Users/danielschaaff/development/puppet/puppet-datadog-agent/manifests/init.pp",
+		"/Users/danielschaaff/development/puppet/control/data/roles/dev_ecs_host.yaml",
+		"/Users/danielschaaff/development/puppet/control/site/profile/templates/docker-registry/config.json.erb",
+		"/Users/danielschaaff/Library/Application Support/Sublime Text 3/Packages/User/hiera-eyaml.sublime-settings",
+		"/Users/danielschaaff/Library/Application Support/Sublime Text 3/Packages/hiera-eyaml/hiera-eyaml.sublime-settings",
+		"/Users/danielschaaff/development/puppet/control/data/roles/production-eks-worker.yaml",
+		"/Users/danielschaaff/development/puppet/control/site/profile/manifests/base.pp",
+		"/Users/danielschaaff/development/puppet/control/site/profile/manifests/rds/postgresql_db.pp",
+		"/Users/danielschaaff/development/puppet/control/data/roles/staging-mongodb.yaml",
+		"/Users/danielschaaff/development/puppet/control/site/profile/templates/jenkins/cassandra.service.erb",
+		"/Users/danielschaaff/development/puppet/control/site/profile/manifests/mongodb/mongodb.pp",
 		"/Users/danielschaaff/development/puppet/control/data/roles/staging-nsq.yaml",
 		"/Users/danielschaaff/development/puppet/control/site/profile/manifests/nsq/nsqd.pp",
 		"/Users/danielschaaff/development/puppet/control/site/profile/manifests/nsq/nsqlookupd.pp",
 		"/Users/danielschaaff/development/puppet/control/data/roles/nsqd.yaml",
 		"/Users/danielschaaff/development/puppet/control/data/roles/nsqlookupd.yaml",
 		"/Users/danielschaaff/development/puppet/control/site/profile/manifests/dashboard_secrets.pp",
-		"/Users/danielschaaff/development/puppet/control/site/profile/manifests/ecs.pp",
 		"/Users/danielschaaff/development/puppet/control/site/profile/manifests/fluentd/ecs.pp",
 		"/Users/danielschaaff/development/puppet/control/site/profile/manifests/efs/staging.pp",
-		"/Users/danielschaaff/development/puppet/control/Puppetfile",
 		"//opt/puppetlabs/puppet/lib/ruby/vendor_ruby/puppet/type/file.rb",
 		"/Users/danielschaaff/development/puppet/control/modules/maven/lib/puppet/provider/maven/mvn.rb",
 		"/Users/danielschaaff/development/puppet/control/data/vrv_environment/production.yaml",
-		"/Users/danielschaaff/development/puppet/control/site/profile/manifests/base.pp",
 		"/Users/danielschaaff/development/puppet/control/data/vrv_environment/ops.yaml",
 		"/Users/danielschaaff/development/puppet/control/data/vrv_environment/staging.yaml",
 		"/Users/danielschaaff/development/puppet/control/data/roles/staging_ecs_host.yaml",
@@ -296,13 +365,14 @@
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 135.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -310,6 +380,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"aws",
+			"docker",
+			"ecs",
+			"selinux"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -327,24 +401,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/danielschaaff/development/puppet/control/data/roles/staging-mongodb.yaml",
+					"file": "/Users/danielschaaff/development/puppet/control/site/profile/manifests/haproxy/tableau_proxy.pp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7989,
+						"buffer_size": 605,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7364,
-								7907
+								487,
+								487
 							]
 						],
 						"settings":
@@ -369,16 +443,41 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -389,52 +488,42 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
 							],
 							"bracket_highlighter.locations":
 							{
 								"close":
 								{
+									"1":
+									[
+										487,
+										488
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/single_quote.png",
+										"region.greenish"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										454,
+										455
+									]
 								},
 								"unmatched":
 								{
@@ -442,16 +531,41 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -462,46 +576,26 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
 							],
 							"git_gutter_is_enabled": true,
 							"git_savvy.repo_path": "/Users/danielschaaff/development/puppet/control",
-							"markdonw_live_preview_last_run": 1524851765.38,
-							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"lsp_language":
+							{
+								"puppet": "puppet"
+							},
+							"markdonw_live_preview_last_run": 1541093413.61,
+							"show_definitions": false,
+							"syntax": "Packages/Puppet/Syntaxes/Puppet.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
 							"vintage":
@@ -517,130 +611,7 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 14
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 2185.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/danielschaaff/development/puppet/control/site/profile/templates/jenkins/cassandra.service.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 454,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								232,
-								232
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"git_gutter_is_enabled": true,
-							"git_savvy.repo_path": "/Users/danielschaaff/development/puppet/control",
-							"markdonw_live_preview_last_run": 1524851775.02,
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
-							"vintage":
-							{
-								"_vintageous_glue_until_normal_mode": true,
-								"action": null,
-								"action_count": "",
-								"mode": "mode_insert",
-								"motion": null,
-								"motion_count": "",
-								"must_capture_register_name": false,
-								"normal_insert_count": "1",
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"xpos": 70
+								"xpos": 26
 							}
 						},
 						"translation.x": 0.0,
@@ -651,27 +622,100 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/Users/danielschaaff/development/puppet/control/site/profile/manifests/mongodb/mongodb.pp",
+					"buffer": 1,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 742,
+						"buffer_size": 1796,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								222,
+								222
 							]
 						],
 						"settings":
 						{
+							"__vi_external_disable": false,
 							"apply_syntax_touched": true,
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
 							"bracket_highlighter.locations":
 							{
 								"close":
@@ -689,16 +733,41 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -709,57 +778,36 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
 							],
-							"git_gutter_is_enabled": true,
+							"default_dir": "/Users/danielschaaff/development/puppet/control/site/profile/manifests/haproxy",
+							"git_gutter_is_enabled": false,
+							"git_savvy.help_hidden": false,
+							"git_savvy.interface": "status",
 							"git_savvy.repo_path": "/Users/danielschaaff/development/puppet/control",
-							"markdonw_live_preview_last_run": 1524851765.37,
-							"show_definitions": false,
-							"syntax": "Packages/Puppet/Syntaxes/Puppet.sublime-syntax",
+							"git_savvy.status_view": true,
+							"git_savvy.tabbable": true,
+							"syntax": "Packages/GitSavvy/syntax/status.sublime-syntax",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
 							"vintage":
 							{
+								"_vintageous_glue_until_normal_mode": true,
 								"action": null,
 								"action_count": "",
-								"mode": "mode_normal",
+								"mode": "mode_insert",
 								"motion": null,
 								"motion_count": "",
 								"must_capture_register_name": false,
+								"normal_insert_count": "1",
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
@@ -774,16 +822,11 @@
 					"type": "text"
 				}
 			]
-		},
-		{
-			"sheets":
-			[
-			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 32.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -798,18 +841,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -819,9 +855,17 @@
 		]
 	},
 	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 160.0
+	},
 	"output.SublimeLinter":
 	{
 		"height": 124.0
+	},
+	"output.Terminus":
+	{
+		"height": 160.0
 	},
 	"output.diagnostics":
 	{
@@ -839,7 +883,7 @@
 	"project": "puppet.sublime-project",
 	"replace":
 	{
-		"height": 60.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -848,6 +892,38 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"ecs",
+				"control/site/profile/manifests/ecs.pp"
+			],
+			[
+				"jenkins/us",
+				"control/site/profile/manifests/jenkins/user.pp"
+			],
+			[
+				"g",
+				"control/Gemfile"
+			],
+			[
+				"je",
+				"control/Jenkinsfile"
+			],
+			[
+				"Je",
+				"control/Jenkinsfile"
+			],
+			[
+				"pup",
+				"control/Puppetfile"
+			],
+			[
+				"slav",
+				"control/site/profile/manifests/jenkins/slave.pp"
+			],
+			[
+				"sla",
+				"control/data/roles/jenkins-slave.yaml"
+			],
 			[
 				"mong",
 				"control/site/profile/manifests/mongodb/mongodb.pp"
@@ -892,10 +968,12 @@
 	"selected_group": 0,
 	"settings":
 	{
+		"_vintageous_last_buffer_search": "ecs_agent_version",
+		"_vintageous_last_buffer_search_command": "vi_octothorp",
 		"_vintageous_reset_during_init": true,
 		"vintage":
 		{
-			"_cmdline_cd": "/Users/danielschaaff/development/puppet/control/site/profile/manifests"
+			"_cmdline_cd": "/Users/danielschaaff/Library/Application Support/Sublime Text 3/Packages/User"
 		}
 	},
 	"show_minimap": true,

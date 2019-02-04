@@ -11,6 +11,10 @@
   "lint-outlines-violation",
   "lint-outlines-warning",
   "lint-annotations",
+  "lsp_bulb",
+  "lsp_error",
+  "lsp_warning",
+  "lsp_info"
 ]
 }
 

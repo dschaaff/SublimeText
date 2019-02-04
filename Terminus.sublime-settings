@@ -1,0 +1,89 @@
+{
+	"256color": true,
+	"shell_configs":
+	[
+		{
+			"cmd":
+			[
+				"bash",
+				"-i",
+				"-l"
+			],
+			"default": true,
+			"enable": true,
+			"env":
+			{
+			},
+			"name": "Bash",
+			"platforms":
+			[
+				"linux",
+				"osx"
+			]
+		},
+		{
+			"cmd":
+			[
+				"zsh",
+				"-i",
+				"-l"
+			],
+			"default": false,
+			"enable": true,
+			"env":
+			{
+			},
+			"name": "Zsh",
+			"platforms":
+			[
+				"linux",
+				"osx"
+			]
+		},
+		{
+			"cmd": "cmd.exe",
+			"default": false,
+			"enable": true,
+			"env":
+			{
+			},
+			"name": "Command Prompt",
+			"platforms":
+			[
+				"windows"
+			]
+		},
+		{
+			"cmd": "powershell.exe",
+			"default": false,
+			"enable": true,
+			"env":
+			{
+			},
+			"name": "Power Shell",
+			"platforms":
+			[
+				"windows"
+			]
+		},
+		{
+			"cmd": "wsl.exe",
+			"default": false,
+			"enable": true,
+			"env":
+			{
+			},
+			"name": "WSL Login Shell",
+			"platforms":
+			[
+				"windows"
+			]
+		}
+	],
+	"theme": "one-dark",
+	"unix_term": "linux",
+	"view_settings":
+	{
+		"font_face": "Hack NF"
+	}
+}

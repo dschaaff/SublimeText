@@ -2,7 +2,13 @@
   { "keys": ["alt+super+up"], "command": "select_lines", "args": {"forward": false} },
   { "keys": ["alt+super+down"], "command": "select_lines", "args": {"forward": true} },
   {
+        "keys": ["ctrl+alt+t"], "command": "terminus_open", "args": {
+            "config_name": "Default",
+            "cwd": "${file_path:${folder}}"
+        }
+    },
+  {
   "keys": ["f12"],
   "command": "lsp_symbol_definition",
-}
+},
 ]
