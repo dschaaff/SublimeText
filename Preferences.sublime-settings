@@ -12,6 +12,7 @@
 	"ignored_packages":
 	[
 		"ActualVim",
+		"Boxy Theme",
 		"Colorsublime",
 		"Markdown",
 		"Six",
@@ -25,6 +26,7 @@
 	"line_padding_top": 1,
 	"match_brackets": false,
 	"mdpopups.use_sublime_highlighter": true,
+	"neovintageous_build_version": 11100,
 	"save_on_focus_lost": true,
 	"skin": "DA UI/Origin",
 	"tab_size": 2,
@@ -33,5 +35,6 @@
 	"trim_trailing_white_space_on_save": true,
 	"vintageous_reset_mode_when_switching_tabs": false,
 	"vintageous_use_ctrl_keys": true,
+	"vintageous_use_super_keys": null,
 	"word_wrap": true
 }

@@ -20,16 +20,15 @@
 	},
 	"in_process_packages":
 	[
+		"Boxy Theme"
 	],
 	"installed_packages":
 	[
 		"A File Icon",
 		"ActualVim",
 		"ApplySyntax",
-		"Boxy Theme",
 		"BracketHighlighter",
 		"Colorsublime",
-		"DA UI",
 		"DashDoc",
 		"Dockerfile Syntax Highlighting",
 		"FileIcons",
@@ -55,7 +54,6 @@
 		"SideBarEnhancements",
 		"Solarized Color Scheme",
 		"SourceTree",
-		"sublime-hiera-eyaml",
 		"sublime-terraform",
 		"SublimeCodeIntel",
 		"SublimeLinter",
