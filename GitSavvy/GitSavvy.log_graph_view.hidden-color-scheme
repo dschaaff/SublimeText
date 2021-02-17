@@ -1,0 +1,248 @@
+{
+	"author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
+	"globals":
+	{
+		"active_guide": "var(cyan)",
+		"background": "var(background)",
+		"block_caret": "var(cursor)",
+		"bracket_contents_foreground": "var(yellow)",
+		"bracket_contents_options": "underline",
+		"brackets_foreground": "var(cyan)",
+		"brackets_options": "stippled_underline",
+		"caret": "var(cursor)",
+		"find_highlight": "#FFD33D22",
+		"find_highlight_foreground": "var(foreground)",
+		"fold_marker": "var(yellow)",
+		"foreground": "var(foreground)",
+		"gutter": "var(background)",
+		"gutter_foreground": "color(var(foreground) alpha(0.2))",
+		"gutter_foreground_highlight": "var(foreground)",
+		"highlight": "#17E5E699",
+		"inactive_selection": "#3392FF22",
+		"inactive_selection_border": "color(var(cyan) alpha(0.1))",
+		"invisibles": "color(var(foreground) alpha(0.3))",
+		"line_diff_added": "var(diffAdded)",
+		"line_diff_deleted": "var(diffDeleted)",
+		"line_diff_modified": "var(diffModified)",
+		"line_diff_width": "3",
+		"line_highlight": "color(var(foreground) alpha(0.1))",
+		"misspelling": "var(red)",
+		"scroll_highlight": "var(yellow)",
+		"scroll_selected_highlight": "var(green)",
+		"selection": "#3392FF44",
+		"selection_border": "var(cyan)",
+		"selection_corner_radius": "cut",
+		"selection_corner_style": "cut",
+		"shadow": "color(var(background) alpha(0.5))",
+		"stack_guide": "var(brown)",
+		"tags_foreground": "var(cyan)",
+		"tags_options": "underline"
+	},
+	"name": "GitHub Dark",
+	"rules":
+	[
+		{
+			"background": "#199",
+			"foreground": "#1991",
+			"name": "GitSavvy Highlighted Matching Commit",
+			"scope": "git_savvy.graph.matching_commit"
+		},
+		{
+			"background": "#99991109",
+			"foreground": "#991",
+			"name": "GitSavvy Highlighted Path Char",
+			"scope": "git_savvy.graph.path_char"
+		},
+		{
+			"background": "#991",
+			"foreground": "#9911",
+			"name": "GitSavvy Highlighted Commit Dot",
+			"scope": "git_savvy.graph.dot"
+		},
+		{
+			"foreground": "var(comments)",
+			"scope": "comment,punctuation.definition.comment,string.comment"
+		},
+		{
+			"foreground": "var(blue)",
+			"scope": "constant,entity.name.constant,variable.other.constant,variable.language"
+		},
+		{
+			"foreground": "var(purple)",
+			"scope": "entity.name.type.class,entity, entity.name"
+		},
+		{
+			"foreground": "var(green)",
+			"scope": "entity.name.tag"
+		},
+		{
+			"foreground": "var(red)",
+			"scope": "keyword"
+		},
+		{
+			"foreground": "var(purple)",
+			"scope": "meta.function meta.function-call.method variable.function"
+		},
+		{
+			"foreground": "var(red)",
+			"scope": "storage,storage.type"
+		},
+		{
+			"foreground": "var(gray)",
+			"scope": "storage.modifier.package,storage.modifier.import,storage.type.java"
+		},
+		{
+			"foreground": "var(blue)",
+			"scope": "string,punctuation.definition.string,string punctuation.section.embedded source"
+		},
+		{
+			"foreground": "var(blue)",
+			"scope": "support"
+		},
+		{
+			"foreground": "var(blue)",
+			"scope": "meta.property-name"
+		},
+		{
+			"foreground": "var(orange)",
+			"scope": "variable,variable.parameter.function"
+		},
+		{
+			"foreground": "var(blue)",
+			"scope": "variable.other.object"
+		},
+		{
+			"foreground": "var(gray)",
+			"scope": "variable.other,variable.object.property"
+		},
+		{
+			"font_style": "italic",
+			"foreground": "var(deprecated)",
+			"scope": "invalid.deprecated"
+		},
+		{
+			"font_style": "italic",
+			"foreground": "var(invalid)",
+			"scope": "invalid.broken"
+		},
+		{
+			"font_style": "italic",
+			"foreground": "var(invalid)",
+			"scope": "invalid.illegal"
+		},
+		{
+			"font_style": "italic",
+			"foreground": "var(invalid)",
+			"scope": "invalid.unimplemented"
+		},
+		{
+			"foreground": "var(blue)",
+			"scope": "support.constant"
+		},
+		{
+			"foreground": "var(blue)",
+			"scope": "support.variable"
+		},
+		{
+			"foreground": "var(purple)",
+			"scope": "support.function.js,meta.function-call"
+		},
+		{
+			"foreground": "var(yellow)",
+			"scope": "markup.list"
+		},
+		{
+			"font_style": "bold",
+			"foreground": "var(blue)",
+			"scope": "markup.heading,markup.heading entity.name"
+		},
+		{
+			"foreground": "var(green)",
+			"scope": "markup.quote"
+		},
+		{
+			"font_style": "italic",
+			"foreground": "var(gray)",
+			"scope": "markup.italic"
+		},
+		{
+			"font_style": "bold",
+			"foreground": "var(gray)",
+			"scope": "markup.bold"
+		},
+		{
+			"foreground": "var(blue)",
+			"scope": "markup.raw"
+		},
+		{
+			"foreground": "var(red)",
+			"scope": "markup.deleted,meta.diff.header.from-file,punctuation.definition.deleted"
+		},
+		{
+			"foreground": "var(green)",
+			"scope": "markup.inserted,meta.diff.header.to-file,punctuation.definition.inserted"
+		},
+		{
+			"foreground": "var(orange)",
+			"scope": "markup.changed,punctuation.definition.changed"
+		},
+		{
+			"foreground": "var(blue)",
+			"scope": "markup.ignored,markup.untracked"
+		},
+		{
+			"font_style": "underline",
+			"foreground": "var(purple)",
+			"scope": "markup.underline"
+		},
+		{
+			"font_style": "underline",
+			"foreground": "var(red)",
+			"scope": "markup.underline.link"
+		},
+		{
+			"font_style": "bold",
+			"foreground": "var(blue)",
+			"scope": "meta.diff.range"
+		},
+		{
+			"foreground": "var(blue)",
+			"scope": "meta.diff.header"
+		},
+		{
+			"font_style": "bold",
+			"foreground": "var(blue)",
+			"scope": "meta.separator"
+		},
+		{
+			"foreground": "var(blue)",
+			"scope": "meta.output"
+		},
+		{
+			"foreground": "var(purple)",
+			"scope": "meta.function-call.constructor variable.type"
+		}
+	],
+	"variables":
+	{
+		"background": "#24292e",
+		"black": "#1b1f23",
+		"blue": "#79b8ff",
+		"comments": "#637777",
+		"cursor": "#c8e1ff",
+		"deprecated": "#b31d28",
+		"diffAdded": "#28a745",
+		"diffDeleted": "#d73a49",
+		"diffModified": "#0366d6",
+		"foreground": "#fafbfc",
+		"gray": "#fafbfc",
+		"green": "#85e89d",
+		"invalid": "#b31d28",
+		"orange": "#ffab70",
+		"pink": "#f692ce",
+		"purple": "#b392f0",
+		"red": "#f97583",
+		"white": "#fff",
+		"yellow": "#fff5b1"
+	}
+}

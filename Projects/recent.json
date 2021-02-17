@@ -5,5 +5,21 @@
 	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/sdk-nearby-server.sublime-project",
 	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/roam-admin-server.sublime-project",
 	"~/development/sublime-projects/terraform.sublime-project",
-	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/puppet.sublime-project"
+	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/puppet.sublime-project",
+	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/prometheus.sublime-project",
+	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/tfm-external-dns.sublime-project",
+	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/ansible.sublime-project",
+	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/zalenium.sublime-project",
+	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/app-gitlab-snippets.sublime-project",
+	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/platform-admin.sublime-project",
+	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/docker-builder.sublime-project",
+	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/events-handling.sublime-project",
+	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/events-stream-service.sublime-project",
+	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/core.sublime-project",
+	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/tf-eks.stg.sublime-project",
+	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/tf-eks.dev.sublime-project",
+	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/tf-bartender.stg.sublime-project",
+	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/tfm-bartender.sublime-project",
+	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/accounts-service.sublime-project",
+	"~/Library/Application Support/Sublime Text 3/Packages/User/Projects/qc-helm-values-templates.sublime-project"
 ]

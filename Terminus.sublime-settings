@@ -9,7 +9,7 @@
 				"-i",
 				"-l"
 			],
-			"default": true,
+			"default": false,
 			"enable": true,
 			"env":
 			{
@@ -28,7 +28,7 @@
 				"-i",
 				"-l"
 			],
-			"default": false,
+			"default": true,
 			"enable": true,
 			"env":
 			{
@@ -80,10 +80,10 @@
 			]
 		}
 	],
-	"theme": "one-dark",
-	"unix_term": "linux",
+	"theme": "solarized-dark-higher-contrast",
+	"unix_term": "xterm-256color",
 	"view_settings":
 	{
-		"font_face": "Hack NF"
+		"font_face": "JetBrains Mono"
 	}
 }

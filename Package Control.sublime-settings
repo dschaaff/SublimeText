@@ -16,7 +16,7 @@
 		"windows":
 		[
 			"wininet"
-		]
+		],
 	},
 	"in_process_packages":
 	[
@@ -24,28 +24,31 @@
 	"installed_packages":
 	[
 		"A File Icon",
-		"ActualVim",
 		"ApplySyntax",
 		"BracketHighlighter",
-		"Colorsublime",
 		"DashDoc",
 		"Dockerfile Syntax Highlighting",
 		"FileIcons",
 		"Fluentd",
 		"GitGutter",
+		"GitHub Theme",
 		"GitSavvy",
 		"Indent XML",
 		"JSONLint",
 		"Logstash Syntax Highlighting",
 		"LSP",
-		"MarkdownEditing",
+		"LSP-intelephense",
+		"LSP-json",
+		"LSP-vue",
+		"LSP-yaml",
 		"MarkdownLivePreview",
+		"MarkdownTOC",
 		"MonokaiFree",
 		"NeoVintageous",
 		"nginx",
 		"Oceanic Next Color Scheme",
-		"Origami",
 		"Package Control",
+		"PhpDoc",
 		"Pretty JSON",
 		"ProjectManager",
 		"Puppet",
@@ -53,8 +56,6 @@
 		"SideBarEnhancements",
 		"Solarized Color Scheme",
 		"SourceTree",
-		"sublime-terraform",
-		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-contrib-puppet",
 		"SublimeLinter-contrib-puppet-lint",
@@ -65,16 +66,18 @@
 		"SublimeREPL",
 		"Terminal",
 		"Terminus",
+		"Terraform",
 		"Theme - Brogrammer",
+		"Theme - Gravity",
 		"Theme - One Dark",
 		"Theme - Spacegray",
 		"ToggleNeoVintageous",
-		"yardgen"
+		"yardgen",
 	],
 	"repositories":
 	[
 		"https://github.com/duboisph/sublime-hiera-eyaml",
 		"https://github.com/dschaaff/sublime-terraform?ref=fix-provider-parser",
 		"https://github.com/tmichel/sublime-terraform"
-	]
+	],
 }
